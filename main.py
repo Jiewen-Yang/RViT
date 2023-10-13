@@ -118,9 +118,7 @@ class Demo():
                           length = args.sample_length,
                           heads = args.num_heads,
                           mlp_dim = args.patch_size[0] ** 2 * 3 * 4,
-                          dropout = args.dropout,
-                          embed_type = args.embed_type,
-                          attn_type = args.attn_type)
+                          dropout = args.dropout,)
         '''
         self.model = torch.jit.load(args.model_path)
         
