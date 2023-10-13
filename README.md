@@ -224,7 +224,7 @@ RecursiveScriptModule(
 
 
 
-## Visualize（Currently Do Not Provide）
+## Visualize
 
 For the attention visualization, we take https://github.com/luo3300612/Visualizer as our reference and implement this code to our project.
 
@@ -240,6 +240,7 @@ Set the --visualize to True will enable the Visualization mode, the attention vi
 python main.py --visualize --model_path=./result/model.pth
 ```
 
+Before enabling visualization, please modify the code according to https://github.com/luo3300612/Visualizer.
 
 
 ## Semi-Precision and Full Precision Training
