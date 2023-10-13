@@ -4,8 +4,7 @@
 
 #### Project created by Jiewen Yang
 
-This project is created by Jiewen Yang. Our experimental platform is configured with 6 RTX3090 (cuda11.2), 256G RAM and Intel (R) Xeon (R) gold 6226R. In this demo code, we use a two-layer RViT trained in Jester dataset as example.
-
+This project is created by Jiewen Yang. Our experimental platform is configured with 6 RTX3090 (cuda11.2), 256G RAM and Intel (R) Xeon (R) gold 6226R. In this project, we use a two-layer RViT trained in Jester dataset as example.
 
 
 ## Install 
@@ -260,3 +259,18 @@ In most cases, we recommend to use Semi-precision training mode, which is O1;
 
 
 Note: In this demo we do not provide the apex code for training or inference.
+
+## Reference
+* [Google ViT](https://github.com/google-research/vision_transformer)
+
+## Citations
+
+```bibtex
+@inproceedings{yang2022recurring,
+  title={Recurring the transformer for video action recognition},
+  author={Yang, Jiewen and Dong, Xingbo and Liu, Liujun and Zhang, Chao and Shen, Jiajun and Yu, Dahai},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14063--14073},
+  year={2022}
+}
+```
