@@ -4,7 +4,7 @@
 
 #### Project created by Jiewen Yang
 
-This project is created by Jiewen Yang. Our experimental platform is configured with 6 RTX3090 (cuda11.2), 256G RAM and Intel (R) Xeon (R) gold 6226R. In this project, we use a two-layer RViT trained in Jester dataset as example.
+This project is created by Jiewen Yang for paper "Recurring the transformer for video action recognition" ([Paper Link](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Recurring_the_Transformer_for_Video_Action_Recognition_CVPR_2022_paper.html?ref=https://githubhelp.com)). Our experimental platform is configured with 6 RTX3090 (cuda11.2), 256G RAM and Intel (R) Xeon (R) gold 6226R. In this project, we use a two-layer RViT trained in Jester dataset as example.
 
 
 ## Install 
