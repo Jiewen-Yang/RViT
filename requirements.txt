@@ -1,0 +1,11 @@
+future
+numpy
+opencv-python
+Pillow
+ptflops
+thop
+tqdm
+tensorboard
+tensorboardX
+bytecode
+einops
