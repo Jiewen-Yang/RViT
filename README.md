@@ -93,7 +93,7 @@ The framework consists of the following simplified folders and files：
 
 
 
-## Training（Currently Do Not Provide）
+## Training
 
 In this framework, after the parameters are configured in the file **args.py**, you only need to use the command:
 

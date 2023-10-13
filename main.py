@@ -22,6 +22,7 @@ from tools.utils import Multi_Accuracy
 from tools.init import Initialization
 from tools.visualizer import *
 
+from model.RViT import RViT
 
 os.environ['CUDA_ENABLE_DEVICES'] = '0'
 frozen_list =['embedding.weight', 'embedding.bias']
@@ -110,7 +111,7 @@ class Demo():
             args.distributed = int(os.environ['WORLD_SIZE']) > 1
         self.init = Initialization()
         self.device, self.local_rank = self.init.init_params(args.enable_GPUs_id, args.distributed)
-        '''
+
         self.model = RViT(image_size = args.image_size[0],
                           patch_size = args.patch_size[0],
                           num_classes = args.class_num,
@@ -119,7 +120,7 @@ class Demo():
                           heads = args.num_heads,
                           mlp_dim = args.patch_size[0] ** 2 * 3 * 4,
                           dropout = args.dropout,)
-        '''
+
         self.model = torch.jit.load(args.model_path)
         
         self.model = self.init.to_GPU(self.model, self.device, self.local_rank)
